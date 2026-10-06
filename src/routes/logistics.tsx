@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { LogisticsPage } from "@/components/pages"; import { seo } from "@/lib/seo";
+export const Route=createFileRoute("/logistics")({head:()=>seo("Our Logistics Process | Cogent Distributing LLC","See Cogent's connected consult, source, prepare, move and deliver logistics process."),component:LogisticsPage});

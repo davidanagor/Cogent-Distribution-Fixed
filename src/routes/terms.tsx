@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { LegalPage } from "@/components/pages"; import { seo } from "@/lib/seo";
+export const Route=createFileRoute("/terms")({head:()=>seo("Terms of Service | Cogent Distributing LLC","Terms of service structure and contact information for Cogent Distributing LLC."),component:()=> <LegalPage type="terms"/>});

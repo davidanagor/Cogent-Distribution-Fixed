@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { ContactPage } from "@/components/pages"; import { seo } from "@/lib/seo";
+export const Route=createFileRoute("/contact")({head:()=>seo("Contact & Request a Quote | Cogent Distributing LLC","Contact Cogent Distributing LLC in Baltimore or prepare a procurement, shipping or logistics quote request."),component:ContactPage});
